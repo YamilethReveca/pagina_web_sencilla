@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: content-box;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(31, 120, 136);
+  padding: 16px;
+  text-align: right;
+  color: white;
+}
+
+nav{
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+  padding: 40px;
+}
+
+li {
+  width: 10px;
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+}
+
+li :hover {
+  background-color: rgb(31, 120, 136);
+}
+
+#descripcionEspecialidad {
+  background-color: rgb(31, 120, 136);
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px; 
+}
+
+#descripcionEspecialidad h1{
+  color: white;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 15%;    
+  font-family: Tahoma, Geneva, sans-serif;  
+}
+
+#nombreEmpresa {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bolder;  
+}
+
+p a{
+  text-decoration: none; 
+  color:#333333;
+}
+
+h4 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5px;    
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#especialidad {
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.contenido {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgb(172, 172, 245);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.texto {
+  text-align: justify;
+  color: rgb(58, 55, 55);
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.divImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos {
+  width: 30px;
+  height: 30px;
+  text-align: right;
+}
+
+.logos:hover {
+  transform: translateY(-10px);
+}
+
+.facebook {
+  width: 50px;
+  height: 50px;
+}
+
+.contenidoFotografico {
+  width: 100%;
+  height: 80%;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.fotoServicios {
+  width: 20%;
+  border-radius: 20px;
+  border: 1px solid rgb(31, 120, 136);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fotos {
+  width: 100%;
+  height: 130px;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid rgb(31, 120, 136);
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  color:#333333;
+}
+
+footer {
+  background-color: rgb(31, 120, 136);
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.iso {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#iso {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.datosPersonal {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid rgb(172, 172, 245);
+  
+}
+
+li a {
+  color: black;
+  text-decoration: none; 
+}
+
+.contenido_quienesSomos , .contenido_pagoOnline, .contenido_contacto{
+  border-top: 1px solid rgb(172, 172, 245);
+  margin-bottom: 30px;
+  padding: 30px;
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* este es consejos practicos */
+
+#contenido_sinBorde {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgb(172, 172, 245);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #333333;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+form {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(172, 172, 245);
+  border-radius: 20px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
